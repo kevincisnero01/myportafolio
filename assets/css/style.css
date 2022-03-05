@@ -1,6 +1,6 @@
 /**
 * Template Name: Personal - v2.5.1
-* Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
+* Template URL: https://bootstrapmade.com/personal-free-experience-bootstrap-template/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
@@ -593,9 +593,9 @@ section .container {
 }
 
 /*--------------------------------------------------------------
-# Resume
+# experience
 --------------------------------------------------------------*/
-.resume .resume-title {
+.experience .experience-title {
   font-size: 26px;
   font-weight: 700;
   margin-top: 20px;
@@ -603,14 +603,14 @@ section .container {
   color: #fff;
 }
 
-.resume .resume-item {
+.experience .experience-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
   border-left: 2px solid rgba(255, 255, 255, 0.2);
   position: relative;
 }
 
-.resume .resume-item h4 {
+.experience .experience-item h4 {
   line-height: 18px;
   font-size: 18px;
   font-weight: 600;
@@ -620,7 +620,7 @@ section .container {
   margin-bottom: 10px;
 }
 
-.resume .resume-item h5 {
+.experience .experience-item h5 {
   font-size: 16px;
   background: rgba(255, 255, 255, 0.15);
   padding: 5px 15px;
@@ -629,19 +629,19 @@ section .container {
   margin-bottom: 10px;
 }
 
-.resume .resume-item ul {
+.experience .experience-item ul {
   padding-left: 20px;
 }
 
-.resume .resume-item ul li {
+.experience .experience-item ul li {
   padding-bottom: 10px;
 }
 
-.resume .resume-item:last-child {
+.experience .experience-item:last-child {
   padding-bottom: 0;
 }
 
-.resume .resume-item::before {
+.experience .experience-item::before {
   content: "";
   position: absolute;
   width: 16px;

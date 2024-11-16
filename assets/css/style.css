@@ -19,7 +19,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/backgrounds/w11.png") top right no-repeat;
+  background: #040404 url("../img/backgrounds/w13.png") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header h1 {
-  font-size: 48px;
+  font-size: 60px;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -75,6 +75,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header h1 a, #header h1 a:hover {
   color: #fff;
+  text-shadow: 2px 2px 4px #000000;
   font-weight: bold;
   line-height: 1;
   display: inline-block;
@@ -83,7 +84,8 @@ h1, h2, h3, h4, h5, h6 {
 #header h2 {
   font-size: 24px;
   margin-top: 20px;
-  color: rgba(255, 255, 255, 0.8);
+  color: #fff;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 #header h2 span {
@@ -103,7 +105,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .social-links a {
-  font-size: 24px;
+  font-size: 48px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -112,8 +114,14 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   margin-right: 8px;
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
+  margin-right: 50px;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+#header .social-links a.facebook{
+  font-size: 40px !important;
 }
 
 #header .social-links a:hover {
@@ -142,6 +150,11 @@ h1, h2, h3, h4, h5, h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Desktop Navigation */
+.nav-menu #home {
+  width: 80px;
+  text-transform: uppercase;
+}
+
 .nav-menu {
   margin-top: 35px;
 }
@@ -154,7 +167,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu li + li {
-  margin-left: 30px;
+  margin-left: 50px;
+  text-transform: uppercase;
 }
 
 .nav-menu a {
@@ -181,7 +195,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu a:hover:before, .nav-menu li:hover > a:before, .nav-menu .active > a:before {
   visibility: visible;
-  width: 25px;
+  width: 80px;
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
